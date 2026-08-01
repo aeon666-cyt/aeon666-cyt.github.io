@@ -3,7 +3,7 @@ title: "Physically Verifiable Evidence and LLM-Based Reporting for Bearing Fault
 date: 2026-07-27
 featured: true
 summary: "A framework combining large language models with physical evidence for intelligent fault diagnosis."
-role: "Under Review
+role: "Under Review"
 tags:
   - Large Language Models
   - AI Agent
