@@ -1,14 +1,17 @@
 ---
-title: "Ph.D. in Mechanical Engineering"
-date: "2024-2027"
-description: "Doctoral study in Mechanical Engineering at Northwestern Polytechnical University."
+title: "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation"
+date: 2026-07-27
+featured: true
 tags:
-  - PhD
-  - Mechanical Engineering
+  - Artificial Intelligence
+  - Intelligent Manufacturing
 ---
 
-Northwestern Polytechnical University
+A knowledge graph enhanced recommendation framework for intelligent manufacturing process planning, integrating industrial knowledge and engineering constraints with graph attention mechanisms.
 
-PhD Candidate in Mechanical Engineering
+**Preprint:** arXiv:2607.24213
 
-2024 - 2027 (Expected)
+**Authors:**  
+Yuntong Chen, Yingqi Li, Yingying Xiao, Ziang Wang, Zewei Liu, Jiahao Liu, Xitian Tian, Lijiang Huang
+
+[Paper](https://arxiv.org/abs/2607.24213)
