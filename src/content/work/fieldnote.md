@@ -1,14 +1,15 @@
 ---
-title: "B.E. in Mechanical Design, Manufacturing and Automation"
-date: "2019-2023"
-description: "Undergraduate study in Mechanical Design, Manufacturing and Automation."
+title: "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation"
+date: 2026-07-27
+featured: true
 tags:
-  - Bachelor
-  - Mechanical Engineering
+  - Artificial Intelligence
+  - Intelligent Manufacturing
 ---
 
-Southwest University
+**Preprint:** arXiv:2607.24213
 
-Bachelor of Engineering in Mechanical Design, Manufacturing and Automation
+**Authors:**  
+Yuntong Chen, Yingqi Li, Yingying Xiao, Ziang Wang, Zewei Liu, Jiahao Liu, Xitian Tian, Lijiang Huang
 
-2019 - 2023
+[arXiv](https://arxiv.org/abs/2607.24213)
