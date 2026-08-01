@@ -1,14 +1,18 @@
 ---
-title: "M.S. in Mechanical Engineering"
-date: "2023-2024"
-description: "Master's study in Mechanical Engineering at Northwestern Polytechnical University."
+title: "Physically Verifiable Evidence and LLM-Based Reporting for Bearing Fault Diagnosis"
+date: 2026-07-24
+featured: false
 tags:
-  - Master
-  - Mechanical Engineering
+  - Large Language Models
+  - Fault Diagnosis
+  - Industrial AI
 ---
 
-Northwestern Polytechnical University
+A physically grounded fault diagnosis framework combining verifiable diagnostic evidence with large language models for reliable industrial maintenance.
 
-Master's Degree in Mechanical Engineering
+**Preprint:** arXiv:2607.22797
 
-2023 - 2024
+**Authors:**  
+Yuntong Chen, Jianyu Liu, Guobin Zhao, Ziang Wang, Chao Chen, Ju Huang, Xitian Tian, Lijiang Huang
+
+[Paper](https://arxiv.org/abs/2607.22797)
