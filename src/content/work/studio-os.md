@@ -1,17 +1,20 @@
 ---
-title: "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation"
-date: 2026-07-27
-featured: true
+title: "Research on Time Constrained Elastic Scheduling Method for High Concurrent Stream Data Processing"
+date: 2025-03-28
+featured: false
 tags:
-  - Artificial Intelligence
-  - Intelligent Manufacturing
+  - Big Data
+  - Stream Processing
+  - Industrial AI
 ---
 
-A knowledge graph enhanced recommendation framework for intelligent manufacturing process planning, integrating industrial knowledge and engineering constraints with graph attention mechanisms.
+An elastic scheduling method for high-concurrency stream data processing, combining machine learning prediction and dynamic resource allocation for industrial data systems.
 
-**Preprint:** arXiv:2607.24213
+**Published in:** IEEE Conference
+
+**DOI:** 10.1109/AIITA65135.2025.11047815
 
 **Authors:**  
-Yuntong Chen, Yingqi Li, Yingying Xiao, Ziang Wang, Zewei Liu, Jiahao Liu, Xitian Tian, Lijiang Huang
+Yuntong Chen, Lijiang Huang, Ziang Wang, Yi Yang, Jianyu Liu, Yingqi Li
 
-[Paper](https://arxiv.org/abs/2607.24213)
+[DOI](https://doi.org/10.1109/AIITA65135.2025.11047815)
