@@ -16,4 +16,4 @@ link: "https://arxiv.org/abs/2607.22797"
 Under review, 2026.
 
 Paper:
-https://arxiv.org/abs/2607.24213
+https://arxiv.org/abs/2607.22797
