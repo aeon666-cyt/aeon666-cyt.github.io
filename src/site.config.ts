@@ -1,22 +1,33 @@
 // Edit this file to re-label the entire site. Header, Footer, the homepage
 // and SEO defaults all read from here instead of hardcoding copy.
+
 export const SITE = {
-  name: 'John Doe',
-  role: 'Product design & frontend engineering',
-  email: 'johndoe@example.com',
-  tagline: 'I design and build interfaces that hold up under real use.',
+  name: 'Yuntong Chen',
+
+  role: 'PhD Candidate in Mechanical Engineering',
+
+  email: 'aeon9125@gmail.com',
+
+  tagline:
+    'I explore intelligent systems that connect large language models, AI agents, and advanced manufacturing.',
+
   description:
-    'Portfolio of John Doe — product design and frontend engineering, with an emphasis on speed, clarity, and the details most people skip.',
-  status: 'Currently building at Studio Co · open to new work, Q3 2026',
+    'Academic portfolio of Yuntong Chen, a PhD candidate in Mechanical Engineering at Northwestern Polytechnical University. His research interests include large language models, big data, AI agents, artificial intelligence, and intelligent manufacturing.',
+
+  status:
+    'PhD Candidate at Northwestern Polytechnical University · Open to research collaboration',
+
   social: [
-    { label: 'GitHub', href: 'https://github.com/your-username' },
-    { label: 'LinkedIn', href: 'https://www.linkedin.com/in/your-username' },
-    { label: 'X', href: 'https://x.com/your-username' },
+    {
+      label: 'GitHub',
+      href: 'https://github.com/aeon666-cyt',
+    },
   ],
+
   locale: 'en',
 } as const;
 
 export const NAV_LINKS = [
-  { label: 'Work', href: '/work' },
+  { label: 'Research', href: '/work' },
   { label: 'About', href: '/about' },
 ] as const;
