@@ -21,9 +21,11 @@ const selected = sorted.slice(0, 5);
       {SITE.status}
     </p>
 
+
     <h1 class="font-display text-ink max-w-2xl text-4xl leading-[1.1] font-medium sm:text-5xl">
       {SITE.tagline}
     </h1>
+
 
     <p class="text-ink-soft mt-6 max-w-md">
       PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
@@ -32,6 +34,7 @@ const selected = sorted.slice(0, 5);
 
 
     <div class="mt-8 flex flex-wrap items-center gap-3">
+
       <Button href="/work" variant="solid">
         View Publications →
       </Button>
@@ -39,39 +42,15 @@ const selected = sorted.slice(0, 5);
       <Button href="#contact" variant="ghost">
         Contact →
       </Button>
+
     </div>
-
-  </section>
-
-
-  <!-- Publications -->
-  <section id="work" class="mx-auto max-w-3xl px-6 pb-20">
-
-    <SectionHeading eyebrow="Publications" count={allWork.length} />
-
-    <div>
-      {selected.map((entry) => <WorkRow entry={entry} />)}
-    </div>
-
-    {
-      allWork.length > selected.length && (
-        <div class="mt-6">
-          <a
-            href="/work"
-            class="text-ink-soft hover:text-signal font-mono text-xs transition-colors"
-          >
-            View all publications →
-          </a>
-        </div>
-      )
-    }
 
   </section>
 
 
 
   <!-- Education -->
-  <section id="about" class="mx-auto max-w-3xl px-6 pb-20">
+  <section id="education" class="mx-auto max-w-3xl px-6 pb-20">
 
     <SectionHeading eyebrow="Education" />
 
@@ -85,7 +64,9 @@ const selected = sorted.slice(0, 5);
       <br />
       2024 – 2027 (Expected)
 
+
       <br /><br />
+
 
       <strong>
         Northwestern Polytechnical University
@@ -95,7 +76,9 @@ const selected = sorted.slice(0, 5);
       <br />
       2023 – 2024
 
+
       <br /><br />
+
 
       <strong>
         Southwest University
@@ -111,21 +94,87 @@ const selected = sorted.slice(0, 5);
 
 
 
+
+  <!-- Publications -->
+  <section id="publications" class="mx-auto max-w-3xl px-6 pb-20">
+
+    <SectionHeading eyebrow="Publications" count={allWork.length} />
+
+
+    <div>
+
+      {selected.map((entry) => <WorkRow entry={entry} />)}
+
+    </div>
+
+
+    {
+      allWork.length > selected.length && (
+        <div class="mt-6">
+
+          <a
+            href="/work"
+            class="text-ink-soft hover:text-signal font-mono text-xs transition-colors"
+          >
+            View all publications →
+          </a>
+
+        </div>
+      )
+    }
+
+
+  </section>
+
+
+
+
   <!-- Contact -->
   <section id="contact" class="mx-auto max-w-3xl px-6 pb-24">
 
     <SectionHeading eyebrow="Contact" />
 
+
     <p class="font-display text-ink max-w-lg text-2xl sm:text-3xl">
       Interested in research collaboration?
     </p>
 
-    <a
-      href={`mailto:${SITE.email}`}
-      class="text-signal mt-4 inline-flex items-center gap-2 font-mono hover:underline"
-    >
-      {SITE.email}
-    </a>
+
+    <div class="mt-4 flex flex-col gap-2">
+
+      <a
+        href={`mailto:${SITE.email}`}
+        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
+      >
+        {SITE.email}
+      </a>
+
+
+      <a
+        href="https://scholar.google.com/citations?user=uozho7EAAAAJ&hl=en"
+        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
+      >
+        Google Scholar
+      </a>
+
+
+      <a
+        href="https://orcid.org/0009-0001-5050-5395"
+        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
+      >
+        ORCID
+      </a>
+
+
+      <a
+        href="https://github.com/aeon666-cyt"
+        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
+      >
+        GitHub
+      </a>
+
+    </div>
+
 
   </section>
 
