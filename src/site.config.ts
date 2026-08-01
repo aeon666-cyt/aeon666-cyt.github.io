@@ -36,6 +36,6 @@ export const SITE = {
 } as const;
 
 export const NAV_LINKS = [
-  { label: 'Research', href: '/work' },
-  { label: 'About', href: '/about' },
+  { label: 'Education', href: '/#education' },
+  { label: 'Publications', href: '/work' },
 ] as const;
