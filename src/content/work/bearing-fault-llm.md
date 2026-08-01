@@ -8,7 +8,7 @@ tags:
   - Large Language Models
   - AI Agent
   - Fault Diagnosis
-link: "https://arxiv.org/"
+link: "https://arxiv.org/abs/2607.22797"
 ---
 
 **Yuntong Chen**, J. Liu, G. Zhao, Z. Wang, C. Chen, J. Huang, X. Tian, L. Huang.
