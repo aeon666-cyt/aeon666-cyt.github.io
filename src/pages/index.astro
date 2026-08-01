@@ -13,170 +13,165 @@ const selected = sorted.slice(0, 5);
 
 <BaseLayout title={SITE.name}>
 
-  <!-- Hero -->
-  <section class="mx-auto max-w-3xl px-6 pt-16 pb-20 sm:pt-24">
+<section class="mx-auto max-w-3xl px-6 pt-16 pb-20 sm:pt-24">
 
-    <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-xs">
-      <span class="bg-signal h-1.5 w-1.5 rounded-full" aria-hidden="true"></span>
-      {SITE.status}
-    </p>
-
-
-    <h1 class="font-display text-ink max-w-2xl text-4xl leading-[1.1] font-medium sm:text-5xl">
-      {SITE.tagline}
-    </h1>
+  <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-xs">
+    <span class="bg-signal h-1.5 w-1.5 rounded-full"></span>
+    {SITE.status}
+  </p>
 
 
-    <p class="text-ink-soft mt-6 max-w-md">
-      PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
-      focusing on large language models, AI agents, big data, and intelligent manufacturing.
-    </p>
+  <h1 class="font-display text-ink max-w-2xl text-4xl leading-[1.1] font-medium sm:text-5xl">
+    {SITE.tagline}
+  </h1>
 
 
-    <div class="mt-8 flex flex-wrap items-center gap-3">
-
-      <Button href="/work" variant="solid">
-        View Publications →
-      </Button>
-
-      <Button href="#contact" variant="ghost">
-        Contact →
-      </Button>
-
-    </div>
-
-  </section>
+  <p class="text-ink-soft mt-6 max-w-xl">
+    PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
+    researching large language models, AI agents, big data, and intelligent manufacturing.
+  </p>
 
 
+  <div class="mt-8 flex flex-wrap items-center gap-3">
 
-  <!-- Education -->
-  <section id="education" class="mx-auto max-w-3xl px-6 pb-20">
+    <Button href="/work" variant="solid">
+      View Publications →
+    </Button>
 
-    <SectionHeading eyebrow="Education" />
+    <Button href="#contact" variant="ghost">
+      Contact →
+    </Button>
 
-    <p class="text-ink-soft max-w-xl">
+  </div>
 
-      <strong>
-        Northwestern Polytechnical University
-      </strong>
-      <br />
-      PhD Candidate in Mechanical Engineering
-      <br />
-      2024 – 2027 (Expected)
-
-
-      <br /><br />
-
-
-      <strong>
-        Northwestern Polytechnical University
-      </strong>
-      <br />
-      M.Eng. in Mechanical Engineering
-      <br />
-      2023 – 2024
-
-
-      <br /><br />
-
-
-      <strong>
-        Southwest University
-      </strong>
-      <br />
-      B.Eng. in Mechanical Design, Manufacturing and Automation
-      <br />
-      2019 – 2023
-
-    </p>
-
-  </section>
+</section>
 
 
 
+<section id="education" class="mx-auto max-w-3xl px-6 pb-20">
 
-  <!-- Publications -->
-  <section id="publications" class="mx-auto max-w-3xl px-6 pb-20">
-
-    <SectionHeading eyebrow="Publications" count={allWork.length} />
+<SectionHeading eyebrow="Education" />
 
 
-    <div>
+<p class="text-ink-soft max-w-xl">
 
-      {selected.map((entry) => <WorkRow entry={entry} />)}
-
-    </div>
-
-
-    {
-      allWork.length > selected.length && (
-        <div class="mt-6">
-
-          <a
-            href="/work"
-            class="text-ink-soft hover:text-signal font-mono text-xs transition-colors"
-          >
-            View all publications →
-          </a>
-
-        </div>
-      )
-    }
+<strong>Northwestern Polytechnical University</strong>
+<br />
+PhD Candidate in Mechanical Engineering
+<br />
+2024 – 2027 (Expected)
 
 
-  </section>
+<br /><br />
+
+
+<strong>Northwestern Polytechnical University</strong>
+<br />
+M.Eng. in Mechanical Engineering
+<br />
+2023 – 2024
+
+
+<br /><br />
+
+
+<strong>Southwest University</strong>
+<br />
+B.Eng. in Mechanical Design, Manufacturing and Automation
+<br />
+2019 – 2023
+
+</p>
+
+
+</section>
+
+
+
+<section id="publications" class="mx-auto max-w-3xl px-6 pb-20">
+
+<SectionHeading eyebrow="Publications" count={allWork.length} />
+
+
+<div>
+
+{selected.map((entry) => <WorkRow entry={entry} />)}
+
+</div>
+
+
+{
+allWork.length > selected.length && (
+
+<div class="mt-6">
+
+<a
+href="/work"
+class="text-ink-soft hover:text-signal font-mono text-xs transition-colors"
+>
+View all publications →
+</a>
+
+</div>
+
+)
+}
+
+
+</section>
 
 
 
 
-  <!-- Contact -->
-  <section id="contact" class="mx-auto max-w-3xl px-6 pb-24">
+<section id="contact" class="mx-auto max-w-3xl px-6 pb-24">
 
-    <SectionHeading eyebrow="Contact" />
-
-
-    <p class="font-display text-ink max-w-lg text-2xl sm:text-3xl">
-      Interested in research collaboration?
-    </p>
+<SectionHeading eyebrow="Contact" />
 
 
-    <div class="mt-4 flex flex-col gap-2">
-
-      <a
-        href={`mailto:${SITE.email}`}
-        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
-      >
-        {SITE.email}
-      </a>
+<p class="font-display text-ink max-w-lg text-2xl sm:text-3xl">
+Interested in research collaboration?
+</p>
 
 
-      <a
-        href="https://scholar.google.com/citations?user=uozho7EAAAAJ&hl=en"
-        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
-      >
-        Google Scholar
-      </a>
+<div class="mt-4 flex flex-col gap-2">
 
 
-      <a
-        href="https://orcid.org/0009-0001-5050-5395"
-        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
-      >
-        ORCID
-      </a>
+<a
+href={`mailto:${SITE.email}`}
+class="text-signal font-mono hover:underline"
+>
+{SITE.email}
+</a>
 
 
-      <a
-        href="https://github.com/aeon666-cyt"
-        class="text-signal inline-flex items-center gap-2 font-mono hover:underline"
-      >
-        GitHub
-      </a>
-
-    </div>
+<a
+href="https://scholar.google.com/citations?user=uozho7EAAAAJ&hl=en"
+class="text-signal font-mono hover:underline"
+>
+Google Scholar
+</a>
 
 
-  </section>
+<a
+href="https://orcid.org/0009-0001-5050-5395"
+class="text-signal font-mono hover:underline"
+>
+ORCID
+</a>
+
+
+<a
+href="https://github.com/aeon666-cyt"
+class="text-signal font-mono hover:underline"
+>
+GitHub
+</a>
+
+
+</div>
+
+
+</section>
 
 
 </BaseLayout>
