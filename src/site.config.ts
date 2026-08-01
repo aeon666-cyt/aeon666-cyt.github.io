@@ -4,23 +4,31 @@
 export const SITE = {
   name: 'Yuntong Chen',
 
-  role: 'PhD Candidate in Mechanical Engineering',
+  role: 'PhD Student in Mechanical Engineering',
 
   email: 'aeon9125@gmail.com',
 
   tagline:
-    'I explore intelligent systems that connect large language models, AI agents, and advanced manufacturing.',
+    'I develop big data and AI methods for industrial intelligence and digital transformation.',
 
   description:
-    'Academic portfolio of Yuntong Chen, a PhD candidate in Mechanical Engineering at Northwestern Polytechnical University. His research interests include large language models, big data, AI agents, artificial intelligence, and intelligent manufacturing.',
+    'Academic portfolio of Yuntong Chen, a PhD student in Mechanical Engineering at Northwestern Polytechnical University. His research focuses on big data analytics, artificial intelligence, large language models, intelligent agents, and industrial digital transformation.',
 
   status:
-    'PhD Candidate at Northwestern Polytechnical University · Open to research collaboration',
+    'PhD Student at Northwestern Polytechnical University · Research on industrial intelligence and digital transformation',
 
   social: [
     {
       label: 'GitHub',
       href: 'https://github.com/aeon666-cyt',
+    },
+    {
+      label: 'Google Scholar',
+      href: 'https://scholar.google.com/citations?user=uozho7EAAAAJ&hl=zh-CN',
+    },
+    {
+      label: 'ORCID',
+      href: 'https://orcid.org/0009-0001-5050-5395',
     },
   ],
 
