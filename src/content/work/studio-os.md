@@ -1,6 +1,6 @@
 ---
 title: "Research on Time Constrained Elastic Scheduling Method for High Concurrent Stream Data Processing"
-date: 2025-03-28
+date: 2025
 featured: false
 tags:
   - Big Data
