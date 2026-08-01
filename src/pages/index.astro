@@ -13,34 +13,49 @@ const selected = sorted.slice(0, 5);
 
 <BaseLayout title={SITE.name}>
 
-<section class="mx-auto max-w-4xl px-6 pt-16 pb-20 sm:pt-24">
+<section class="mx-auto max-w-6xl px-6 pt-16 pb-20 sm:pt-24">
 
-  <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-sm">
-    <span class="bg-signal h-1.5 w-1.5 rounded-full"></span>
-    {SITE.status}
-  </p>
+  <div class="flex items-center justify-between gap-12">
 
+    <div class="max-w-4xl">
 
-  <h1 class="font-display text-ink max-w-2xl text-4xl leading-[1.1] font-medium sm:text-3xl">
-    {SITE.tagline}
-  </h1>
-
-
-  <p class="text-ink-soft mt-6 max-w-xl">
-    PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
-    researching large language models, AI agents, big data, and intelligent manufacturing.
-  </p>
+      <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-sm">
+        <span class="bg-signal h-1.5 w-1.5 rounded-full"></span>
+        {SITE.status}
+      </p>
 
 
-  <div class="mt-8 flex flex-wrap items-center gap-3">
+      <h1 class="font-display text-ink max-w-4xl text-5xl leading-[1.15] font-medium">
+        {SITE.tagline}
+      </h1>
 
-    <Button href="/work" variant="solid">
-      View Publications →
-    </Button>
 
-    <Button href="#contact" variant="ghost">
-      Contact →
-    </Button>
+      <p class="text-ink-soft mt-6 max-w-2xl">
+        PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
+        researching large language models, AI agents, big data, and intelligent manufacturing.
+      </p>
+
+
+      <div class="mt-8 flex flex-wrap items-center gap-3">
+
+        <Button href="/work" variant="solid">
+          View Publications →
+        </Button>
+
+        <Button href="#contact" variant="ghost">
+          Contact →
+        </Button>
+
+      </div>
+
+    </div>
+
+
+    <img
+      src="/profile.jpg"
+      alt="Yuntong Chen"
+      class="hidden h-40 w-40 rounded-full border object-cover md:block"
+    />
 
   </div>
 
