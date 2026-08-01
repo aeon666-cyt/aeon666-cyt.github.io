@@ -1,6 +1,6 @@
 ---
 title: "Physically Verifiable Evidence and LLM-Based Reporting for Bearing Fault Diagnosis"
-date: 2026-07
+date: 2026
 featured: false
 tags:
   - Large Language Models
