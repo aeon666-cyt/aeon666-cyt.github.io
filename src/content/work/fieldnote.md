@@ -1,6 +1,6 @@
 ---
 title: "Integrating Factual and Normative Industrial Knowledge via Constraint-Aware Graph Attention for Process Plan Recommendation"
-date: 2026-07-27
+date: 2026
 featured: true
 tags:
   - Artificial Intelligence
