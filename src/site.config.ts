@@ -9,13 +9,13 @@ export const SITE = {
   email: 'aeon9125@gmail.com',
 
   tagline:
-    'I develop big data and AI methods for industrial intelligence and digital transformation.',
+    'Research in artificial intelligence, big data, and intelligent manufacturing.',
 
   description:
     'Academic portfolio of Yuntong Chen, a PhD student in Mechanical Engineering at Northwestern Polytechnical University. His research focuses on big data analytics, artificial intelligence, large language models, intelligent agents, and industrial digital transformation.',
 
   status:
-    'PhD Candidate at Northwestern Polytechnical University · Research on Artificial Intelligence and Industrial Digitalization',
+    'PhD Candidate at Northwestern Polytechnical University · Research in AI and Industrial Informatics',
 
   social: [
     {
