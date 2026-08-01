@@ -15,9 +15,10 @@ const selected = sorted.slice(0, 5);
 
 <section class="mx-auto max-w-6xl px-6 pt-16 pb-20 sm:pt-24">
 
-  <div class="flex items-center justify-between gap-12">
+  <div class="flex items-center justify-between gap-16">
 
-    <div class="max-w-4xl">
+    <!-- 左侧文字 -->
+    <div class="max-w-3xl">
 
       <p class="text-ink-soft mb-6 inline-flex items-center gap-2 font-mono text-sm">
         <span class="bg-signal h-1.5 w-1.5 rounded-full"></span>
@@ -25,12 +26,13 @@ const selected = sorted.slice(0, 5);
       </p>
 
 
-      <h1 class="font-display text-ink max-w-4xl text-5xl leading-[1.15] font-medium">
-        {SITE.tagline}
+      <h1 class="font-display text-ink max-w-3xl text-5xl leading-[1.15] font-medium">
+        Research in artificial intelligence, big data,
+        and intelligent manufacturing.
       </h1>
 
 
-      <p class="text-ink-soft mt-6 max-w-2xl">
+      <p class="text-ink-soft mt-6 max-w-xl">
         PhD Candidate in Mechanical Engineering at Northwestern Polytechnical University,
         researching large language models, AI agents, big data, and intelligent manufacturing.
       </p>
@@ -51,10 +53,11 @@ const selected = sorted.slice(0, 5);
     </div>
 
 
+    <!-- 右侧头像 -->
     <img
       src="/profile.jpg"
       alt="Yuntong Chen"
-      class="hidden h-40 w-40 rounded-full border object-cover md:block"
+      class="hidden h-44 w-44 rounded-full border object-cover lg:block"
     />
 
   </div>
