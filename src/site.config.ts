@@ -15,7 +15,7 @@ export const SITE = {
     'Academic portfolio of Yuntong Chen, a PhD student in Mechanical Engineering at Northwestern Polytechnical University. His research focuses on big data analytics, artificial intelligence, large language models, intelligent agents, and industrial digital transformation.',
 
   status:
-    'PhD Student at Northwestern Polytechnical University · Research on industrial intelligence and digital transformation',
+    'PhD Candidate at Northwestern Polytechnical University · Research on Artificial Intelligence and Industrial Digitalization',
 
   social: [
     {
