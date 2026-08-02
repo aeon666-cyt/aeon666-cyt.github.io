@@ -13,7 +13,7 @@
 :root {
   color-scheme: light;
 
-  --paper: #f5f9ff; /* page background */
+  --paper: #f8fbff; /* page background */
   --ink: #0B1F3A; /* navy blue primary text */
   --ink-soft: #5B677A; /* blue-gray secondary text */
   --signal: #1D4ED8; /* academic blue accent */
