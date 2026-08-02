@@ -13,12 +13,17 @@
 :root {
   color-scheme: light;
 
-  --paper: #F0F7FF; /* page background */
-  --ink: #0B1F3A; /* navy blue primary text */
-  --ink-soft: #5B677A; /* blue-gray secondary text */
-  --signal: #1D4ED8; /* academic blue accent */
-  --line: #D9E2EC; /* light blue-gray borders */
-  --surface: #F5F8FC; /* cards and panels */
+  --paper: #F4F8FF;
+
+  --ink: #0F2747;
+
+  --ink-soft: #52657A;
+
+  --signal: #2563EB;
+
+  --line: #D7E3F4;
+
+  --surface: #FFFFFF;
 }
 
 
