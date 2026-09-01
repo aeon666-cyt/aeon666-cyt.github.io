@@ -7,7 +7,7 @@ interface Props {
 
 const { entry } = Astro.props;
 
-const { title, summary, date, tags } = entry.data;
+const { title, venue, date, tags } = entry.data;
 
 const stamp = date.getFullYear();
 ---
@@ -33,9 +33,13 @@ const stamp = date.getFullYear();
     </span>
 
 
+    {
+  venue && (
     <span class="text-ink-soft hidden truncate text-base sm:block">
-      {summary}
+      {venue}
     </span>
+  )
+}
 
   </span>
 
