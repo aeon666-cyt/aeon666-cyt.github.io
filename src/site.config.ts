@@ -9,10 +9,10 @@ export const SITE = {
   email: 'aeon9125@gmail.com',
 
   tagline:
-    'Research on AI and big data for intelligent manufacturing.',
+    'Data-driven intelligence for manufacturing — from industrial data governance to AI-powered discovery.',
 
   description:
-    'Academic portfolio of Yuntong Chen, a PhD student in Mechanical Engineering at Northwestern Polytechnical University. His research focuses on big data analytics, artificial intelligence, large language models, intelligent agents, and industrial digital transformation.',
+    'PhD candidate in Mechanical Engineering at Northwestern Polytechnical University, researching enterprise data governance, LLM-based agents, and their applications in fault diagnosis, process planning, and beyond.',
 
   status:
     'INTRODUCTION',
