@@ -3,17 +3,14 @@ title: "A trustworthy agentic AI framework for auditable label-free machinery fa
 date: 2026-09-01
 featured: true
 summary: "A multi-agent framework for intelligent fault diagnosis."
-role: "Accept"
+role: "Accepted"
+venue: "Advanced Engineering Informatics"
 tags:
   - Large Language Models
   - AI Agent
   - Fault Diagnosis
-link: "1"
 ---
 
 **Yuntong Chen**, B. Liu, Y. Li, Z. Wang, L. Ma, J. Liu, X. Tian, L. Huang.
 
-Accept, 2026.
-
-Paper:
-https://
+Accepted by *Advanced Engineering Informatics*, 2026.
